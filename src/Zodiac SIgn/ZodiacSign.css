@@ -1,0 +1,165 @@
+body
+{
+  background-color: black;
+}
+.container
+{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 0;
+  width: fit-content;
+  position: absolute;
+  top: 0;
+  margin-left: 23rem;
+} 
+img
+{
+  top: 0;
+  bottom: 0;
+  width: 1349px;
+  height: 653px;
+  position: relative;
+}
+.container .title
+{
+  margin-bottom: 2.5rem;
+  text-shadow: 0 2px 8px rgb(116, 115, 115);
+}
+.container .title h1
+{
+  margin-bottom: 0.5rem;
+  color: rgb(102, 198, 236);
+  text-shadow: 0 0 10px skyblue;
+}
+.container .title h2 span
+{
+  color: red;
+}
+.container .title h1 span
+{
+  color: red;
+}
+.container .title h2
+{
+  color: skyblue;
+}
+.container form
+{
+  text-align: left;
+  width: fit-content;
+  margin: auto;
+  background-color: transparent;
+  padding: 1rem 1rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 10px skyblue,
+  0 0 20px skyblue,
+  0 0 40px skyblue;
+}
+.container form label
+{
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: rgb(123, 224, 231);
+  padding-left: 1rem;
+}
+.container form input
+{
+  font-size: 1.3rem;
+  font-weight: bolder;
+  margin: 1.5rem;
+  margin-left: 3rem;
+  padding: 0.5rem;
+  padding-left: 1rem;
+  background-color: skyblue;
+  border: none;
+  border-radius: 0.2rem;
+  outline: none;
+  box-shadow: 0 2px 8px black;
+  width: 19.8rem;
+}
+.container form input[name=dob]
+{
+   margin-left: 1.7rem;
+   width: 19.8rem;
+   padding: 0.3rem;
+   padding-left: 1rem;
+   cursor: pointer;
+}
+.container form input[type=submit]
+{
+  margin-top: 2rem;
+  color: rgb(32, 32, 32);
+  background-color: skyblue;
+  border: none;
+  padding: 0.5rem;
+  border-radius: 0.2rem;
+  font-size: 1.3rem;
+  font-weight: bolder;
+  cursor: pointer;
+  margin-left: 13rem;
+  transition: all 0.2s ease;
+  width: fit-content;
+}
+.container form input[type=submit]:hover
+{
+  transform: scale(1.08);
+  box-shadow: 0 0 10px skyblue;
+}
+.container .result
+{
+  position: relative;
+  box-shadow: 0 0 10px skyblue,
+  0 0 20px skyblue,
+  0 0 40px skyblue;
+  border-radius: 1rem;
+  padding: 1.5rem;
+  width: 60rem;
+  margin: auto;
+}
+.container .result h2
+{
+  color: red;
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  text-shadow: 0 0 10px red;
+}
+.container .result h3
+{
+  text-align: left;
+  padding: 0.8rem 1rem;
+  color: black;
+  font-size: 1.5rem;
+  word-spacing: 0.4rem;
+  text-shadow: 0 0 10px skyblue,
+  0 0 20px skyblue,
+  0 0 40px skyblue;
+}
+.container .result span
+{
+  left: 0;
+  position: absolute;
+  color: skyblue;
+  margin-left: 25rem;
+  text-shadow: 0 0 10px skyblue,
+  0 0 20px skyblue;
+}
+.container .result button
+{
+  color: rgb(32, 32, 32);
+  background-color: rgb(102, 198, 236);
+  border: none;
+  padding: 0.5rem;
+  border-radius: 0.2rem;
+  font-size: 1.3rem;
+  font-weight: bolder;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  width: fit-content;
+  margin-top: 1.5rem;
+}
+.container .result button:hover
+{
+  transform: scale(1.08);
+  box-shadow: 0 0 10px skyblue;
+}
