@@ -1,0 +1,65 @@
+.static
+{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index:1;
+}
+nav
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+    padding: 0.5rem;
+    box-shadow: 0 2px 15px black;
+    padding: 0.3rem 0;
+    background-color: rgb(11, 11, 133);
+}
+nav .logo h1
+{
+    font-size: 2rem;
+    margin-left: 10rem;
+    color: white;
+}
+nav ul
+{
+    font-size: 1.3rem;
+    right: 10rem;
+    position: absolute;
+}
+nav ul .links
+{
+    margin-left: 2rem;
+    color: white;
+    text-decoration: none;
+    font-weight: 300;
+    transition: all 0.2s ease;
+}
+nav ul .links:hover
+{
+    color: aqua;
+}
+nav ul .active
+{
+    position: relative;
+    font-weight: 400;
+}
+nav ul .active::after
+{
+    content: '';
+    background-color: white;
+    width: 50%;
+    height: 3px;
+    position: absolute;
+    left: 0;
+    top: 1.8rem;
+}
+nav ul .active:hover
+{
+    color: aqua;
+}
+nav ul .active:hover::after
+{
+    background-color: aqua;
+}

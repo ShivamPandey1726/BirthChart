@@ -1,0 +1,16 @@
+.card
+{
+    width: 25rem;
+    box-shadow: 0 8px 25px black;
+    transition: all 0.2s ease;
+    border-radius: 1rem;
+    overflow: hidden;
+}
+img
+{
+    border-top-left-radius: 1rem;
+}
+.card:hover
+{
+    transform: scale(1.05);
+}

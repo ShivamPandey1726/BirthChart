@@ -1,0 +1,51 @@
+.home-container
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+.home-container .left
+{
+    width: 100%;
+    margin: auto;
+    padding-left: 8rem;
+    width: 100%;
+}
+.home-container .left h1 span
+{
+    color: rgb(51, 170, 218);
+    
+}
+.home-container .left h3
+{
+    margin: 1rem 0;
+    color: rgb(87, 86, 86);
+    font-weight: 400;
+}
+.home-container .left button
+{
+    border: 2px solid rgb(51, 170, 218);
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: transparent;
+    border-radius: 2rem;
+    color: rgb(51, 170, 218);
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.home-container .left button:hover
+{
+    background-color: rgb(51, 170, 218);
+    color: white;
+}
+.home-container .right
+{
+    width: fit-content;
+    margin: auto;
+    margin-right: 10rem;
+    margin-top: 2.4rem;
+}
+.home-container .right img
+{
+    width: 550px;
+}
