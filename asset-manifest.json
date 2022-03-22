@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/BirthChart/static/css/main.033bb24b.css",
+    "main.js": "/BirthChart/static/js/main.ee989de5.js",
+    "static/media/Astrology.mp3": "/BirthChart/static/media/Astrology.697c56f2d52a1b9a8ff4.mp3",
+    "index.html": "/BirthChart/index.html",
+    "main.033bb24b.css.map": "/BirthChart/static/css/main.033bb24b.css.map",
+    "main.ee989de5.js.map": "/BirthChart/static/js/main.ee989de5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.033bb24b.css",
+    "static/js/main.ee989de5.js"
+  ]
+}
